@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^Pentrix\.ga$ [NC]
+RewriteRule ^(.*)$www.Pentrix.ga/$1 [R=301,L]
