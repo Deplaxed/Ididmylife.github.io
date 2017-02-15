@@ -6,7 +6,7 @@ ul {
     background-color: grey;
 }
 li {
-    float: left;
+    float: left;font-size:20px
 }
 li a {
     display: block;
