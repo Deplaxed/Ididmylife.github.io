@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{NESgames} !-d
+RewriteCond %{NESgames}\.html -f
+RewriteRule ^(.*)$ $1.html
